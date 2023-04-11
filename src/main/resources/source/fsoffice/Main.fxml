@@ -16,8 +16,8 @@
             <Font size="21.0" />
          </font>
       </Label>
-      <Button layoutX="13.0" layoutY="12.0" mnemonicParsing="false" text="Button" />
-      <Button layoutX="82.0" layoutY="13.0" mnemonicParsing="false" text="Button" />
+      <Button fx:id="uploadFileButton" layoutX="13.0" layoutY="13.0" mnemonicParsing="false" onAction="#uploadFileButtonClick" text="Upload File" />
+      <Button fx:id="textEntryButton" layoutX="110.0" layoutY="13.0" mnemonicParsing="false" onAction="#textEntryButtonClick" text="Manual Text Entry" />
       <Button layoutX="533.0" layoutY="13.0" mnemonicParsing="false" text="Button" />
       <Button layoutX="463.0" layoutY="13.0" mnemonicParsing="false" text="Button" />
       <Button layoutX="99.0" layoutY="187.0" mnemonicParsing="false" text="Button" />

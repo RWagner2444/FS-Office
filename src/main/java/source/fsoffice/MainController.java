@@ -21,4 +21,10 @@ public class MainController {
             term = true;
         }
     }
+
+    public void uploadFileButtonClick(ActionEvent actionEvent) {
+    }
+
+    public void textEntryButtonClick(ActionEvent actionEvent) {
+    }
 }
